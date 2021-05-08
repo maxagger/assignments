@@ -1,0 +1,17 @@
+.main {
+    height: 100vh;
+    display: flexbox;
+    background-color: aqua;
+
+    }
+    .right {
+        flex:0.2;
+        display: row;
+        align-items: flex-start;
+        background-color: black;
+    }
+    .left {
+        flex:0.8;
+        display: column;
+background-color: chartreuse;
+    }

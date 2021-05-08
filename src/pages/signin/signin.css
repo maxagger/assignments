@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    height:100vh;
+    background-image: url('../../images/useit.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+   /* flex-direction: column;*/
+    justify-content: center;
+    align-items:center;
+    
+
+}
+/*
+.form {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    
+  }
+*/
+.forms { 
+    
+    width: 20%;
+    height: 50%;
+   background-color: brown;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 9px 5px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../images/firstone.jpg');
+  
+    /*  animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-direction: alternate-reverse;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:green; left:200px; top:200px;}
+    75%  {background-color: blueviolet; left:0px; top:200px;}
+    100% {background-color:pink; left:0px; top:0px;}*/
+}
+
+.buttons {
+    
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 10px;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    
+    }
+    .buttons:hover {
+        background-color: white;
+        color: white;
+        color: black;
+      }
+    
+
+
+
+.password  {
+    border-radius: 20px;
+        margin: 0px;
+      text-align: center;
+      padding:20px
+      
+      
+}
+.username  {
+    border-radius: 20px;
+    margin: 00px;
+      text-align: center;
+      padding:20px
+      
+}
